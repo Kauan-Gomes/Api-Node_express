@@ -11,6 +11,8 @@ O npm serve para baixar bibliotecas para seu projeto
 Padrão de arquitetura de API, segue para criação o protocolo HTTP (GET, POST, DELETE, PUT). E possui na maioria das vezes formato de JSON
 - Para que serve o Framework Express
 Framework de Node.js para criar uma API
+- O que é o padrão de projeto Middlewares?
+
 
 # Comandos
 

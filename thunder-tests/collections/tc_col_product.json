@@ -14,9 +14,14 @@
             "method": "DELETE",
             "sortNum": 10000,
             "created": "2023-08-09T00:23:16.810Z",
-            "modified": "2023-08-09T00:23:16.810Z",
+            "modified": "2023-08-09T01:17:19.461Z",
             "headers": [],
             "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Kauan Gomes\",\n  \"Idade\": \"21\",\n  \"email\": \"kauang13@gmail.com\"\n}",
+                "form": []
+            },
             "tests": []
         },
         {
@@ -28,9 +33,14 @@
             "method": "GET",
             "sortNum": 20000,
             "created": "2023-08-09T00:25:56.375Z",
-            "modified": "2023-08-09T00:25:56.375Z",
+            "modified": "2023-08-09T01:17:36.604Z",
             "headers": [],
             "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Kauan Gomes\",\n  \"Idade\": \"21\",\n  \"email\": \"kauang13@gmail.com\"\n}",
+                "form": []
+            },
             "tests": []
         },
         {
@@ -42,9 +52,14 @@
             "method": "POST",
             "sortNum": 30000,
             "created": "2023-08-09T00:27:14.576Z",
-            "modified": "2023-08-09T00:27:14.576Z",
+            "modified": "2023-08-09T01:19:26.529Z",
             "headers": [],
             "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"produto\": \"choclate\",\n  \"tipo\": \"doce\"\n}",
+                "form": []
+            },
             "tests": []
         },
         {
@@ -56,9 +71,14 @@
             "method": "PUT",
             "sortNum": 40000,
             "created": "2023-08-09T00:27:39.360Z",
-            "modified": "2023-08-09T00:27:39.360Z",
+            "modified": "2023-08-09T01:20:47.585Z",
             "headers": [],
             "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"produto\": \"choclate\",\n  \"tipo\": \"doce\"\n}",
+                "form": []
+            },
             "tests": []
         }
     ]

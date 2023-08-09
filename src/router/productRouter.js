@@ -3,22 +3,46 @@ import express from 'express'
 const router = express.Router()
 
 router.get('/', (req, res)=>{   
-    res.json({message: "Produto recebido com sucesso"})
+    const dados = req.body
+    
+    res.json({
+        message: "produto recebido com sucesso",
+        dados: dados
+    
+    })
 })
 
 router.post('/', (req, res)=>{
     //Create
-    res.json({message: "Produto criado com sucesso"})
+    const dados = req.body
+    
+    res.json({
+        message: "produto criado com sucesso",
+        dados: dados
+    
+    })
 })
 
 router.put('/', (req, res)=>{
     //Update
-    res.json({message: "Produto atualizado com sucesso"})
+    const dados = req.body
+    
+    res.json({
+        message: "produto atualizado com sucesso",
+        dados: dados
+    
+    })
 })
 
 router.delete('/', (req, res)=>{
     //Apagar
-    res.json({message: "Produto apagado com sucesso"})
+    const dados = req.body
+    
+    res.json({
+        message: "produto apagado com sucesso",
+        dados: dados
+    
+    })
 })
 
 export default router
